@@ -1,0 +1,476 @@
+Dependencies for Project 'xmc1400_template', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x611109DD)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (uart_app.h)(0x61110431)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_uart.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_gpio.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio.h)(0x5E4F9B21)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio_map.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AE02A)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (.\uart_app.c)(0x61110C2A)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\uart_app.o --omf_browse .\objects\uart_app.crf --depend .\objects\uart_app.d)
+I (uart_app.h)(0x61110431)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_uart.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_gpio.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio.h)(0x5E4F9B21)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio_map.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AE02A)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (.\uart_app.h)(0x61110431)()
+F (..\Startup\RTE\Device\XMC1404-Q064x0200\startup_XMC1400.s)(0x5CD1CE4E)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 529" --pd "XMC1404_Q064x0200 SETA 1"--list .\listings\startup_xmc1400.lst --xref -o .\objects\startup_xmc1400.o --depend .\objects\startup_xmc1400.d)
+F (..\Startup\RTE\Device\XMC1404-Q064x0200\system_XMC1400.c)(0x5CF63612)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\system_xmc1400.o --omf_browse .\objects\system_xmc1400.crf --depend .\objects\system_xmc1400.d)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+F (.\can.c)(0x61110C1C)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_gpio.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio.h)(0x5E4F9B21)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio_map.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9AE02A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5D9AE02A)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_can.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_can_map.h)(0x5CB5444D)
+I (uart_app.h)(0x61110431)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_uart.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_acmp.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_acmp.o --omf_browse .\objects\xmc_acmp.crf --depend .\objects\xmc_acmp.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_acmp.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_bccu.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_bccu.o --omf_browse .\objects\xmc_bccu.crf --depend .\objects\xmc_bccu.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_bccu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_can.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_can.o --omf_browse .\objects\xmc_can.crf --depend .\objects\xmc_can.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_can.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_can_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_ccu4.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_ccu4.o --omf_browse .\objects\xmc_ccu4.crf --depend .\objects\xmc_ccu4.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_ccu4.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_ccu4_map.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_ccu8.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_ccu8.o --omf_browse .\objects\xmc_ccu8.crf --depend .\objects\xmc_ccu8.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_ccu8.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_ccu8_map.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_common.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_common.o --omf_browse .\objects\xmc_common.crf --depend .\objects\xmc_common.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_eru.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_eru.o --omf_browse .\objects\xmc_eru.crf --depend .\objects\xmc_eru.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_eru.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_eru_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_gpio.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_gpio.o --omf_browse .\objects\xmc_gpio.crf --depend .\objects\xmc_gpio.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_gpio.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio.h)(0x5E4F9B21)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_i2c.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_i2c.o --omf_browse .\objects\xmc_i2c.crf --depend .\objects\xmc_i2c.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_i2c.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_i2s.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_i2s.o --omf_browse .\objects\xmc_i2s.crf --depend .\objects\xmc_i2s.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_i2s.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_ledts.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_ledts.o --omf_browse .\objects\xmc_ledts.crf --depend .\objects\xmc_ledts.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_ledts.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_math.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_math.o --omf_browse .\objects\xmc_math.crf --depend .\objects\xmc_math.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_math.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_pau.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_pau.o --omf_browse .\objects\xmc_pau.crf --depend .\objects\xmc_pau.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_pau.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_posif.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_posif.o --omf_browse .\objects\xmc_posif.crf --depend .\objects\xmc_posif.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_posif.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_posif_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_prng.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_prng.o --omf_browse .\objects\xmc_prng.crf --depend .\objects\xmc_prng.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_prng.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_rtc.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_rtc.o --omf_browse .\objects\xmc_rtc.crf --depend .\objects\xmc_rtc.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_rtc.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AE022)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_rtc.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_spi.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_spi.o --omf_browse .\objects\xmc_spi.crf --depend .\objects\xmc_spi.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_spi.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_uart.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_uart.o --omf_browse .\objects\xmc_uart.crf --depend .\objects\xmc_uart.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_uart.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_usic.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_usic.o --omf_browse .\objects\xmc_usic.crf --depend .\objects\xmc_usic.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_usic.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_usic_map.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_vadc.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_vadc.o --omf_browse .\objects\xmc_vadc.crf --depend .\objects\xmc_vadc.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_vadc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_vadc_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc_wdt.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc_wdt.o --omf_browse .\objects\xmc_wdt.crf --depend .\objects\xmc_wdt.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_wdt.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc1_eru.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc1_eru.o --omf_browse .\objects\xmc1_eru.crf --depend .\objects\xmc1_eru.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_eru.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_eru_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc1_flash.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc1_flash.o --omf_browse .\objects\xmc1_flash.crf --depend .\objects\xmc1_flash.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_flash.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_flash.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1000_RomFunctionTable.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc1_gpio.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc1_gpio.o --omf_browse .\objects\xmc1_gpio.crf --depend .\objects\xmc1_gpio.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_gpio.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio.h)(0x5E4F9B21)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_gpio_map.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc1_rtc.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc1_rtc.o --omf_browse .\objects\xmc1_rtc.crf --depend .\objects\xmc1_rtc.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_rtc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5D9AE022)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_rtc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
+F (..\LowLevelDrivers\XMC1400\XMCLib\src\xmc1_scu.c)(0x5CB5444D)(--c99 --gnu -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I ..\Startup\RTE\KIT_XMC14_BOOT_001 -I ..\Xmc1400_Template -I ..\LowLevelDrivers\XMC1400\CMSIS\Include -I ..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include -I ..\LowLevelDrivers\XMC1400\XMCLib\inc-I.\RTE\_Target_1-IC:\Users\NLQT\AppData\Local\Arm\Packs\Infineon\XMC1000_DFP\2.11.0\Device\XMC1400_series\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="529" -DXMC1404_Q064x0200 -DXMC1404_Q064x0200-o .\objects\xmc1_scu.o --omf_browse .\objects\xmc1_scu.crf --depend .\objects\xmc1_scu.d)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_scu.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_common.h)(0x5CB5444D)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9AE028)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9AE028)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc_device.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\core_cm0.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_compiler.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Include\cmsis_armcc.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\CMSIS\Infineon\XMC1400_series\Include\system_XMC1400.h)(0x5CB5444D)
+I (..\LowLevelDrivers\XMC1400\XMCLib\inc\xmc1_scu.h)(0x5CB5444D)
